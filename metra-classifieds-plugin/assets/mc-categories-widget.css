@@ -1,0 +1,48 @@
+/* METRA Categories Widget (Tree + Accordion)
+ * Minimal styling. Override in metra-master.css.
+ */
+
+.mc-categories-widget .mc-categories-tree,
+.mc-categories-widget .mc-categories-tree__children {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.mc-categories-widget .mc-categories-tree__item {
+  margin: 0;
+  padding: 2px 0;
+}
+
+.mc-categories-widget .mc-categories-tree__children {
+  padding-left: 14px;
+}
+
+.mc-categories-widget .mc-categories-tree__summary {
+  cursor: pointer;
+}
+
+.mc-categories-widget .mc-categories-tree__summary a {
+  text-decoration: none;
+}
+
+.mc-categories-widget details > summary {
+  list-style: none;
+}
+
+.mc-categories-widget details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* v0.0711: Widget-Kategorien immer schwarz, unabhängig von Design-Tokens */
+.mc-categories-widget a,
+.mc-categories-widget .mc-categories-tree__summary,
+.mc-categories-widget .mc-categories-tree__summary a {
+  color: #000 !important;
+}
+
+/* v0.0715: Widget-Titel schwarz */
+.widget_mc_categories_widget .widget-title,
+.widget_mc_categories_widget h2 {
+  color: #000 !important;
+}

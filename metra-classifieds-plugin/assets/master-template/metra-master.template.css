@@ -1,0 +1,693 @@
+/* =========================================================
+   METRA MASTER CSS
+   Central, update-safe design file for METRA Classifieds.
+
+   Zweck:
+   This file contains visual design rules only
+   for the frontend.
+
+   Enthalten:
+   - Buttons
+   - Auth-Formulare
+   - Formularelemente
+   - Sidebar / Kategorien
+   - Suche
+   - Kategorie-Kacheln
+   - Listing-Karten
+   - Einzelanzeige
+   - Profil / Favoriten
+   - Rein optische Mobile-Anpassungen
+
+   Nicht enthalten:
+   - Plugin-Logik
+   - technische Grid-Steuerung
+   - funktionale Breakpoint-Logik
+   - Wartungs- oder Generator-Historien
+   ========================================================= */
+
+
+/* =========================================================
+   BUTTONS
+   Standardbuttons und Aktionslinks
+   ========================================================= */
+
+.mc-btn,
+.mc-button,
+.mc-actions a,
+.mc-listing-actions a,
+a.mc-btn,
+a.mc-button,
+button.mc-btn,
+button.mc-button,
+input.mc-btn,
+input.mc-button,
+.mc-home-search-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 21px;
+    border: none;
+    border-radius: 8px;
+    background: var(--mc-primary, #0276ff);
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .15s ease, opacity .15s ease;
+}
+
+.mc-btn:hover,
+.mc-button:hover,
+.mc-actions a:hover,
+.mc-listing-actions a:hover,
+a.mc-btn:hover,
+a.mc-button:hover,
+button.mc-btn:hover,
+button.mc-button:hover,
+input.mc-btn:hover,
+input.mc-button:hover,
+.mc-home-search-btn:hover {
+    background: var(--mc-primary-hover, #025fd1);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mc-favorite-active,
+.metra-favorite-active,
+.mc-btn-success {
+    background: #ff923d;
+}
+
+.mc-favorite-active:hover,
+.metra-favorite-active:hover,
+.mc-btn-success:hover {
+    background: #ff923d;
+}
+
+
+/* =========================================================
+   AUTH FORMS
+   Login / Register / Reset password
+   ========================================================= */
+
+.mc-auth-page .mc-card {
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 16px;
+    padding: 24px 28px;
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.mc-auth-page .mc-card p {
+    margin: 0 0 14px;
+}
+
+.mc-auth-page .mc-card p:last-child {
+    margin-bottom: 0;
+}
+
+.mc-auth-page .mc-card label {
+    display: block;
+    margin: 0 0 6px;
+}
+
+.mc-auth-page .mc-card .mc-auth-actions,
+.mc-auth-page .mc-card .mc-login-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+
+/* =========================================================
+   FORM FIELDS
+   Sichtbare Standardfelder im Frontend
+   ========================================================= */
+
+.mc-auth-page input[type="text"],
+.mc-auth-page input[type="email"],
+.mc-auth-page input[type="password"],
+.mc-auth-page input[type="search"],
+.mc-auth-page select,
+.mc-auth-page textarea,
+.mc-home-search-input,
+.mc-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #333333;
+}
+
+
+/* =========================================================
+   SIDEBAR
+   Kategorienliste und Sidebar-Boxen
+   ========================================================= */
+
+.mc-home-sidebar,
+.mc-profile-box,
+.mc-favorite-card {
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 14px;
+}
+
+.mc-home-sidebar {
+    padding: 14px;
+}
+
+.mc-home-sidebar-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 0 10px;
+}
+
+.mc-home-sidebar-all,
+.mc-home-cat-parent,
+.mc-home-cat-child,
+.mc-home-cat-more {
+    text-decoration: none;
+}
+
+.mc-home-sidebar-all,
+.mc-home-cat-more {
+    color: var(--mc-primary, #0276ff);
+}
+
+.mc-home-cat-parent {
+    display: block;
+    margin: 0 0 6px;
+    font-weight: 700;
+    color: var(--mc-text, #333333);
+}
+
+.mc-home-cat-child {
+    color: var(--mc-text, #333333);
+}
+
+.mc-home-cat-group {
+    padding: 10px 0;
+    border-top: 1px solid rgba(0,0,0,.08);
+}
+
+.mc-home-cat-group:first-of-type {
+    border-top: 0;
+    padding-top: 0;
+}
+
+
+/* =========================================================
+   HOME SEARCH
+   Suchfeld und Suchbutton
+   ========================================================= */
+
+.mc-home-search {
+    margin-bottom: 12px;
+}
+
+.mc-home-search-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mc-home-search-input {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+
+/* =========================================================
+   CATEGORY TILES
+   Kategorie-Kacheln / Wizard-Optik
+   ========================================================= */
+
+.mc-catwiz-tile {
+    display: block;
+    padding: 14px;
+    border: 1px solid rgba(0,0,0,.08);
+    border-radius: 14px;
+    background: #ffffff;
+    text-decoration: none;
+    color: inherit;
+}
+
+.mc-catwiz-tile-name {
+    font-weight: 700;
+}
+
+.mc-catwiz-tile:hover,
+.mc-home-cat-parent:hover,
+.mc-home-cat-child:hover,
+.mc-home-cat-more:hover,
+.mc-home-sidebar-all:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================================
+   LISTING GRID
+   Listing card view
+   ========================================================= */
+
+.mc-listing-card,
+.metra-listing-card {
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 16px;
+    padding: 12px;
+}
+
+.mc-listing-title,
+.metra-listing-title {
+    font-weight: 700;
+}
+
+.mc-listing-meta,
+.metra-listing-meta {
+    color: #666666;
+}
+
+
+/* =========================================================
+   SINGLE LISTING
+   Preis, Zustand und Aktionen in der Einzelanzeige
+   ========================================================= */
+
+.mc-listing-price,
+.metra-listing-price {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.mc-listing-condition,
+.metra-listing-condition {
+    margin-left: 10px;
+    color: #666666;
+}
+
+.mc-single-actions,
+.metra-single-actions,
+.mc-actions,
+.mc-listing-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/* =========================================================
+   FAVORITES
+   Herzsymbol, Favoritenstatus und Favoritenliste
+   ========================================================= */
+
+.mc-favorite-heart,
+.metra-favorite-heart,
+.mc-favorite-heart-toggle__icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.mc-favorite-heart,
+.metra-favorite-heart {
+    width: 15px;
+    height: 15px;
+}
+
+.mc-favorite-heart-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    background: rgba(255,255,255,.92);
+    box-shadow: 0 2px 10px rgba(0,0,0,.14);
+}
+
+.mc-favorite-heart-toggle--single {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    margin-left: 10px;
+    border-radius: 999px;
+    background: rgba(255,255,255,.92);
+    box-shadow: 0 2px 10px rgba(0,0,0,.14);
+}
+
+.mc-favorite-heart-toggle--single .mc-favorite-heart-toggle__icon {
+    width: 20px;
+    height: 20px;
+}
+
+.mc-favorites-list,
+.metra-favorites-list {
+    display: grid;
+    gap: 14px;
+}
+
+.mc-favorite-card,
+.metra-favorite-card {
+    padding: 14px;
+}
+
+
+/* =========================================================
+   PROFILE / DASHBOARD
+   Profil-Boxen und Navigation
+   ========================================================= */
+
+.mc-profile-box,
+.metra-profile-box {
+    padding: 18px;
+}
+
+.mc-profile-nav,
+.metra-profile-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.mc-profile-nav a,
+.metra-profile-nav a {
+    text-decoration: none;
+}
+
+.mc-profile-nav a.is-active,
+.metra-profile-nav a.is-active {
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   MOBILE DESIGN
+   Visual adjustments for small devices only
+   ========================================================= */
+
+@media (max-width: 768px) {
+    .mc-auth-page .mc-card {
+        padding: 18px 16px;
+    }
+
+    .mc-home-search-row {
+        gap: 8px;
+    }
+
+    .mc-listing-card,
+    .metra-listing-card,
+    .mc-home-sidebar,
+    .mc-favorite-card,
+    .metra-favorite-card {
+        border-radius: 0;
+    }
+}
+
+
+/* =========================================================
+   LISTING CARD HEAD META
+   PLZ/Ort links, Datum rechts
+   ========================================================= */
+
+.mc-listing-head-meta,
+.metra-listing-head-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 0 0 8px 0;
+    font-size: 13px;
+    line-height: 1.3;
+    color: #666666;
+}
+
+.mc-listing-head-meta__location,
+.metra-listing-head-meta__location {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.mc-listing-head-meta__date,
+.metra-listing-head-meta__date {
+    flex: 0 0 auto;
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   LISTING CARD PRICE ROW
+   Preis mit Favoritenherz
+   ========================================================= */
+
+.mc-listing-price-row,
+.metra-listing-price-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+
+/* =========================================================
+   LISTING CARD IMAGE COUNT
+   Kamera-Symbol plus Anzahl der Bilder
+   ========================================================= */
+
+.mc-listing-image-count,
+.metra-listing-image-count {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 1.2;
+    color: #666666;
+}
+
+.mc-listing-image-count__icon,
+.metra-listing-image-count__icon {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1;
+}
+
+
+/* =========================================
+   PRICE – GLOBAL
+   Price styling used on all METRA listings
+   ========================================= */
+
+.mc-price,
+.mc-listing-price,
+.mc-single-price {
+    color: #2f6813;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+/* =========================================
+   PRICE ROW
+   ========================================= */
+
+.mc-listing-price-row,
+.mc-price-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/* =========================================
+   FAVORITE HEART
+   ========================================= */
+
+.mc-favorite-toggle,
+.mc-favorite-heart {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+/* =========================================
+   IMAGE COUNT
+   ========================================= */
+
+.mc-image-count {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #777777;
+}
+
+/* METRA MANAGED BLOCK: listing-card-step-2 START */
+/* =========================================
+   LISTING CARD – STEP 2
+   Title, price spacing and excerpt hierarchy
+   ========================================= */
+
+.mc-listing-title,
+.metra-listing-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    line-height: 1.25;
+}
+
+.mc-listing-price-row,
+.metra-listing-price-row,
+.mc-price-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.mc-listing-excerpt,
+.metra-listing-excerpt {
+    font-size: 15px;
+    color: #444444;
+    margin-top: 6px;
+    line-height: 1.4;
+}
+/* METRA MANAGED BLOCK: listing-card-step-2 END */
+
+
+/* =========================================================
+   LISTING CARD – IMAGE COUNT BADGE
+   Image count overlay on listing thumbnails
+   ========================================================= */
+
+.mc-listing-thumb{
+    position:relative;
+}
+
+.mc-listing-image-count--badge{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    padding:6px 10px;
+    border-radius:8px;
+    background:rgba(0,0,0,.78);
+    color:#ffffff;
+    font-size:14px;
+    line-height:1;
+}
+
+.mc-listing-image-count--badge .mc-listing-image-count__icon,
+.mc-listing-image-count--badge .mc-listing-image-count__value{
+    color:#ffffff;
+}
+
+
+/* ------------------------------------------------
+METRA TEST BLOCK
+Nur Listing-Karten auf kleinen Mobilgeräten anpassen
+Keine globalen Seiten- oder Footer-Eingriffe
+------------------------------------------------ */
+
+@media (max-width:768px){
+
+  .mc-home-layout{
+    background:#ffffff;
+  }
+
+  .mc-home-layout .mc-listings{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:10px;
+    align-items:start;
+  }
+
+  .mc-home-layout .mc-listing{
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    justify-content:flex-start;
+    background:#ffffff;
+    border:1px solid #e2e2e2;
+    border-radius:10px;
+    overflow:hidden;
+    padding:0;
+    margin:0;
+    min-height:0 !important;
+    height:auto !important;
+  }
+
+  .mc-home-layout .mc-listing-thumb{
+    position:relative;
+    display:block;
+    width:100% !important;
+    max-width:100% !important;
+    flex:0 0 auto !important;
+    margin:0;
+    padding:0;
+    line-height:0;
+    overflow:hidden;
+  }
+
+  .mc-home-layout .mc-listing-thumb img,
+  .mc-home-layout .mc-thumb-img,
+  .mc-home-layout .mc-thumb-placeholder{
+    display:block;
+    width:100% !important;
+    max-width:100% !important;
+    aspect-ratio:1 / 1;
+    height:auto !important;
+    min-height:0 !important;
+    object-fit:cover;
+    margin:0;
+  }
+
+  .mc-home-layout .mc-listing-content{
+    display:block;
+    flex:0 0 auto;
+    padding:10px;
+    margin:0;
+    min-height:0 !important;
+    height:auto !important;
+  }
+
+}
+
+
+/* -------------------------------------------------------
+Favorites – active color
+Version: 0.0388
+Description:
+Active favorites (heart icon and favorite button)
+use the METRA accent color.
+------------------------------------------------------- */
+
+.mc-favorite-heart-toggle.is-favorite .mc-favorite-heart-toggle__icon,
+.mc-favorite-heart-toggle[aria-pressed="true"] .mc-favorite-heart-toggle__icon {
+    color:#ff923d;
+}
+
+.mc-favorite-btn.is-favorite{
+    background:#ff923d;
+    border-color:#ff923d;
+}

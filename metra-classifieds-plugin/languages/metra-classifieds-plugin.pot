@@ -1,0 +1,1945 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: METRA Classifieds Plugin 0.0358\n"
+"POT-Creation-Date: 2026-03-10 09:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: OpenAI\n"
+
+#: includes/class-mc-settings.php
+msgid "%d demo users deleted."
+msgstr ""
+
+#: includes/class-mc-design.php
+msgid "%d file(s) selected"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "(No description yet)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "1) Placeholder image (same for all)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "2) Locally generated 1â2 images per listing"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "A new user has registered and is awaiting email confirmation (pending)."
+msgstr ""
+
+#: includes/class-mc-pages.php
+msgid "A required METRA page slug is currently occupied by a non-page content type. Please delete or rename the conflicting post and keep the reserved slug for a WordPress page."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "A user activated their account successfully."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Active"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Add New"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Add New Category"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Add New Condition"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Add new images"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Add New Listing"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Admin-Link:"
+msgstr ""
+
+#: includes/class-mc-pages.php
+msgid "After fixing, re-save Permalinks or simply revisit this page; METRA will recreate missing required pages automatically."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Aktivierungslink invalid oder expired."
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "All Categories"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "All categories"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "All categories (full tree)"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "All Conditions"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "All demo users use the same password: Secret"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "All Listings"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "An image upload failed."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Authentication & Users"
+msgstr ""
+
+#: includes/class-mc-admin-columns.php
+msgid "Author listings"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Auto-created pages"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Back"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Basic"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Basic design tokens. These settings only affect appearance."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Basic Settings"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Bold"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Border width"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Border width for cards/inputs/buttons (token: --mc-border-width). Format: Npx"
+msgstr ""
+
+#: includes/class-mc-pages.php
+msgid "Browse category"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Browse category listings (page-based fallback)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Button color"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Button radius"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+#: modules/contact/contact.php
+#: public/templates/single-mc_listing.php
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Card padding"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Card radius"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+#: includes/class-mc-pages.php
+#: includes/class-mc-settings.php
+#: includes/class-mc-shortcodes.php
+#: includes/widgets/class-mc-categories-widget.php
+#: metra-classifieds.php
+msgid "Categories"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Categories grid (tile view)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Categories widget: only categories with listings"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Categories widget: root category"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Categories widget: show counters"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+#: includes/class-mc-emails.php
+#: includes/class-mc-shortcodes.php
+msgid "Category"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Category drilldown wizard (submit flow)"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Category not found."
+msgstr ""
+
+#: includes/widgets/class-mc-categories-widget.php
+msgid "Category sidebar block (parent + children + More)."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Category:"
+msgstr ""
+
+#: includes/class-mc-pages.php
+msgid "Choose category"
+msgstr ""
+
+#: includes/class-mc-design.php
+#: includes/class-mc-shortcodes.php
+msgid "Choose images"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Choose this category"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Choose whether new listings are visible immediately or require administrator approval first."
+msgstr ""
+
+#: includes/class-mc-profile.php
+#: includes/class-mc-shortcodes.php
+msgid "City"
+msgstr ""
+
+#: public/templates/single-mc_listing.php
+msgid "City:"
+msgstr ""
+
+#: modules/contact/contact.php
+msgid "Classifieds communication â %s"
+msgstr ""
+
+#: modules/contact/contact.php
+msgid "Close"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+#: includes/class-mc-emails.php
+#: includes/class-mc-shortcodes.php
+msgid "Condition"
+msgstr ""
+
+#: public/templates/single-mc_listing.php
+msgid "Condition: "
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Confirm new password"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Corner radius"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Corner radius for buttons (token: --mc-button-radius). Format: Npx"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Corner radius for cards/buttons (token: --mc-radius). Format: Npx"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Corner radius for input fields (token: --mc-input-radius). Format: Npx"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Corner radius for listing cards (token: --mc-card-radius). Format: Npx"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Could not create listing %s: %s"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Could not create the listing. Please try again."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Could not create user %s: %s"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Could not delete listing."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Could not export categories."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Could not open CSV file."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Could not update listing."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Could not update the listing. Please try again."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Counts all listings (post type mc_listing) by status."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Create demo data now"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Created on"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Created: %s"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Creates demo users and published demo listings directly in WordPress. Users are created as active (not pending) with a fixed password. Existing users/listings are not modified."
+msgstr ""
+
+#: includes/class-mc-plugin.php
+msgid "Critical registrations missing:"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "CSS font-family value (token: --mc-font). Example: Inter, system-ui, sans-serif"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "CSV file"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "CSV file is not readable."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "CSV header is missing."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "CSV missing required column: %s"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Dashboard"
+msgstr ""
+
+#: metra-classifieds.php
+msgid "Deactivate and reactivate the plugin"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+#: public/templates/single-mc_listing.php
+msgid "Delete"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Delete demo users now"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+#: public/templates/single-mc_listing.php
+msgid "Delete listing"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Delete permanently"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Deletes all demo users whose username ends with \"-dummy\" (and deletes their listings)."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Demo import completed: %d listings created (package %d)."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Demo users: %d (password: Secret)."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Demo/Dummy import (creates users + listings)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+#: includes/class-mc-shortcodes.php
+msgid "Description"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Design"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Desktop listing columns"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Desktop only. Mobile remains two-column. The left categories sidebar stays active; this switch changes only the number of listing columns on desktop."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Details Ihrer Listing:"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Details:"
+msgstr ""
+
+#: includes/class-mc-profile.php
+msgid "Display name"
+msgstr ""
+
+#: includes/widgets/class-mc-categories-widget.php
+msgid "Display options (counters, filtering, root) are configured globally in METRA Classifieds -> Settings -> Basic."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Do you really want to permanently delete this listing?"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Download CSV"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Download the current category tree as CSV (same format as import)."
+msgstr ""
+
+#: includes/class-mc-settings.php
+#: includes/class-mc-shortcodes.php
+msgid "Draft"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Drag to sort"
+msgstr ""
+
+#: includes/class-mc-design.php
+#: includes/class-mc-shortcodes.php
+msgid "Drop images here"
+msgstr ""
+
+#: includes/class-mc-profile.php
+msgid "E-mail"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Edit"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Edit Category"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Edit Condition"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+#: includes/class-mc-shortcodes.php
+msgid "Edit Listing"
+msgstr ""
+
+#: includes/class-mc-pages.php
+#: includes/class-mc-shortcodes.php
+#: public/templates/single-mc_listing.php
+msgid "Edit listing"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Edit listing (owner/admin)"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Edit listing:"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Edit user:"
+msgstr ""
+
+#: includes/class-mc-emails.php
+#: includes/class-mc-settings.php
+msgid "Email"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Email address"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Email address or username"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Email logo URL"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Email sent. Please check your inbox and click the confirmation link."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Enable plugin design (METRA styles)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Enable the theme-agnostic offcanvas mobile navigation (hamburger)."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Es wurde eine neue Listing erstellt."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Export categories (CSV)"
+msgstr ""
+
+#: includes/class-mc-design.php
+#: includes/class-mc-favorites.php
+#: includes/class-mc-profile.php
+#: includes/class-mc-shortcodes.php
+#: public/templates/single-mc_listing.php
+msgid "Favorite"
+msgstr ""
+
+#: includes/class-mc-design.php
+#: includes/class-mc-favorites.php
+msgid "Favorite could not be updated."
+msgstr ""
+
+#: includes/class-mc-pages.php
+#: includes/class-mc-profile.php
+#: includes/class-mc-shortcodes.php
+msgid "Favorites"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "File \"%s\" is not a supported image."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "First page"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Font family"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Font size for listing description/excerpt (token: --mc-excerpt-size). Example: 14px"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Font size for listing titles (token: --mc-title-size). Example: 16px"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Font used for listing description text (token: --mc-listing-font)."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Font used for listing titles (token: --mc-listing-title-font)."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Font weight for listing description/excerpt (token: --mc-excerpt-weight)."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Font weight for listing titles (token: --mc-title-weight)."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Forgot password?"
+msgstr ""
+
+#: modules/contact/contact.php
+msgid "From:"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Go to dashboard"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Grid gap"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Grid spacing between cards (token: --mc-gap). Format: Npx"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Headline color"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Hello %s,"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Hello,"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "ID"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "If category exists"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "If enabled, the plugin outputs its own design tokens and METRA component stylesheet. If disabled, the plugin stays theme-compatible and only provides functionality."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "If you did not create an account, you can ignore this email."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "If you do not want to set a password or you received this email unexpectedly, you can ignore it."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Ihr Konto wurde aktiviert. Sie erhalten nun eine Email zum Festlegen Ihres Passwords."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Image \"%s\" could not be attached."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Image \"%s\" could not be uploaded."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Images"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Images created: %d"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Images mode"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Import categories"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Import categories (CSV)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Import finished. Created: %d, Updated: %d, Skipped: %d"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Import/Export"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Infrastructure"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Inherit from theme"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Inner padding of listing cards (token: --mc-card-padding). Format: Npx"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Input radius"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Insert failed for \"%s\": %s"
+msgstr ""
+
+#: includes/class-mc-favorites.php
+msgid "Invalid listing."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Invalid package number."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Last page"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Legacy view endpoint (redirects to canonical listing)"
+msgstr ""
+
+#: public/templates/single-mc_listing.php
+msgid "Light signs of wear"
+msgstr ""
+
+#: public/templates/single-mc_listing.php
+msgid "Like new"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Limits how many images can be uploaded per listing (gallery)."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Link:"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Listing"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listing description font size"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listing description weight"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listing excerpt length (words)"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Listing ID"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listing moderation"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Listing not available."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Listing not found."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Listing permanently deleted."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Listing submitted successfully."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listing text font (excerpt)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listing thumbnail height (px)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listing thumbnail width (px)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listing title font"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listing title font size"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listing title weight"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Listing updated. Redirectingâ¦"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+#: includes/class-mc-pages.php
+#: includes/class-mc-settings.php
+#: includes/class-mc-shortcodes.php
+#: metra-classifieds.php
+msgid "Listings"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listings count must be greater than 0."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listings counter"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listings of the logged-in user"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Listings per page"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Listings to create"
+msgstr ""
+
+#: includes/class-mc-profile.php
+#: includes/class-mc-shortcodes.php
+msgid "Log in"
+msgstr ""
+
+#: metra-classifieds.php
+msgid "Log out"
+msgstr ""
+
+#: includes/class-mc-menu.php
+#: includes/class-mc-pages.php
+#: includes/class-mc-shortcodes.php
+#: metra-classifieds.php
+msgid "Login"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Login form"
+msgstr ""
+
+#: includes/class-mc-menu.php
+#: includes/class-mc-shortcodes.php
+msgid "Logout"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Main categories"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Main text color (token: --mc-text)."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Max. images per listing"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Max. logo width (px)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Maximum displayed logo width in outgoing HTML e-mails."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Maximum number of images reached for this listing."
+msgstr ""
+
+#: modules/contact/contact.php
+msgid "Message"
+msgstr ""
+
+#: modules/contact/contact.php
+msgid "Message seller"
+msgstr ""
+
+#: modules/contact/contact.php
+msgid "Message sent"
+msgstr ""
+
+#: modules/contact/contact.php
+msgid "Message to"
+msgstr ""
+
+#: modules/contact/contact.php
+msgid "Message:"
+msgstr ""
+
+#: includes/widgets/class-mc-categories-widget.php
+msgid "METRA Categories (Sidebar Tree)"
+msgstr ""
+
+#: metra-classifieds.php
+msgid "METRA Category Selection (Wizard)"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+#: includes/class-mc-settings.php
+#: includes/class-mc-shortcodes.php
+#: modules/contact/contact.php
+msgid "METRA Classifieds"
+msgstr ""
+
+#: metra-classifieds.php
+msgid "METRA Login Page"
+msgstr ""
+
+#: metra-classifieds.php
+msgid "METRA Post a listing Page"
+msgstr ""
+
+#: metra-classifieds.php
+msgid "METRA Register Page"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Min. 7 characters, incl. 1 uppercase letter, 1 number and 1 special character."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Minimal settings for the first stable build."
+msgstr ""
+
+#: metra-classifieds.php
+msgid "Missing slugs:"
+msgstr ""
+
+#: includes/widgets/class-mc-categories-widget.php
+msgid "More ..."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "More â¦"
+msgstr ""
+
+#: includes/class-mc-menu.php
+#: includes/class-mc-pages.php
+#: includes/class-mc-shortcodes.php
+#: metra-classifieds.php
+msgid "My dashboard"
+msgstr ""
+
+#: includes/class-mc-pages.php
+#: includes/class-mc-settings.php
+#: includes/class-mc-shortcodes.php
+msgid "My listings"
+msgstr ""
+
+#: includes/class-mc-pages.php
+#: includes/class-mc-profile.php
+#: includes/class-mc-shortcodes.php
+#: metra-classifieds.php
+msgid "My Profile"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Name"
+msgstr ""
+
+#: public/templates/single-mc_listing.php
+msgid "New"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "New Category Name"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "New Condition Name"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "New Listing"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "New listing received: %1$s (ID %2$d)"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "New password"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "New registration (pending): %s"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Next page"
+msgstr ""
+
+#: includes/class-mc-user-activation.php
+msgid "No"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "No categories available."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+#: includes/widgets/class-mc-categories-widget.php
+msgid "No categories found."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "No category selected."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "No CSV file uploaded."
+msgstr ""
+
+#: includes/class-mc-design.php
+#: includes/class-mc-shortcodes.php
+msgid "No files selected"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "No images yet."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "No listing selected."
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "No listings found in Trash."
+msgstr ""
+
+#: includes/class-mc-cpt.php
+#: includes/class-mc-shortcodes.php
+msgid "No listings found."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "No mc_category terms found. Listings will be created without categories."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "No rows found in CSV."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "No users available to assign as authors."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Normal"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Not active"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "not found (will be created automatically)"
+msgstr ""
+
+#: includes/class-mc-design.php
+msgid "Notice"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Number of words shown under each listing title. Use 0 to hide the excerpt."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Nutzer"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "of"
+msgstr ""
+
+#: includes/class-mc-design.php
+#: modules/contact/contact.php
+msgid "OK"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "One column (desktop)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Only show categories that contain listings (directly or in descendants)."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Option 1 uses one shared image. Option 2 generates unique images locally (no external URLs)."
+msgstr ""
+
+#: includes/class-mc-design.php
+#: includes/class-mc-shortcodes.php
+msgid "or choose files"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Other"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Overwrite existing"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Overwrite updates the name/slug for the term at the same hierarchy position."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Package number"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Page"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Parent Category"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Password"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Password festlegen"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Password must be at least 7 characters and include 1 uppercase letter, 1 number and 1 special character."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Password saved. Please sign in."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+#: includes/class-mc-user-activation.php
+msgid "Pending"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Pickup or shipping is possible. Please ask for details via the contact form."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please check your entries and try again."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please check your inbox. You will receive an email to reset your password."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please choose a category."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please choose a valid condition."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Please confirm your email address"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Please confirm your email address by clicking the following link:"
+msgstr ""
+
+#: includes/class-mc-user-activation.php
+msgid "Please confirm your email address via the activation link before you can sign in."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please confirm your registration by email first."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please enter a city."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please enter a description."
+msgstr ""
+
+#: modules/contact/contact.php
+msgid "Please enter a message."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please enter a title."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please enter a valid email address, a username (min. 3 chars), a ZIP (4â5 digits) and a city (min. 3 chars)."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please enter a valid price."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please enter a valid ZIP."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please enter a ZIP."
+msgstr ""
+
+#: includes/class-mc-favorites.php
+msgid "Please log in first."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please log in to edit your listing."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please log in to post a listing."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please log in to see your listings."
+msgstr ""
+
+#: modules/contact/contact.php
+msgid "Please log in to send a message."
+msgstr ""
+
+#: includes/class-mc-profile.php
+msgid "Please log in to view your favorites."
+msgstr ""
+
+#: includes/class-mc-profile.php
+msgid "Please log in to view your profile."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please open the link from your email to set your password."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please select a subcategory (not a category group)."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Please set your password now by clicking the following link:"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please solve the security question correctly."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please wait"
+msgstr ""
+
+#: includes/class-mc-pages.php
+#: includes/class-mc-settings.php
+#: includes/class-mc-shortcodes.php
+#: metra-classifieds.php
+msgid "Post a listing"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Post a listing form (after category selection)"
+msgstr ""
+
+#: public/templates/single-mc_listing.php
+msgid "Posted by"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Previous page"
+msgstr ""
+
+#: includes/class-mc-emails.php
+#: includes/class-mc-shortcodes.php
+msgid "Price"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Price, condition and category are set as examples to help test list views."
+msgstr ""
+
+#: public/templates/single-mc_listing.php
+msgid "Price: "
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Primary image"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Process failed. Please check your entries."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Public listings index (search + pagination)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Publicly reachable JPG/PNG URL. HTTPS recommended. If the URL is invalid or not a JPG/PNG, it will be cleared on save."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Publish immediately"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Published"
+msgstr ""
+
+#: public/templates/single-mc_listing.php
+msgid "Really delete?"
+msgstr ""
+
+#: metra-classifieds.php
+msgid "Recommended:"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Recommended: keep disabled for maximum compatibility with third-party themes. Enable only if you want the METRA look."
+msgstr ""
+
+#: includes/class-mc-menu.php
+#: includes/class-mc-pages.php
+#: includes/class-mc-shortcodes.php
+#: metra-classifieds.php
+msgid "Register"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Register failed. "
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Register now"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Registration failed (security check). Please try again."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Registration failed. Please try again later."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Registration form"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Remember me"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Renders a link to your submit page."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Renders a minimal category grid."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Renders a minimal submit form for logged-in users."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Request password reset"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Require admin approval (pending)"
+msgstr ""
+
+#: metra-classifieds.php
+msgid "Required METRA pages are missing (or unpublished). Features like category drilldown may not work correctly."
+msgstr ""
+
+#: includes/class-mc-pages.php
+msgid "Reset password"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Reset password (request link)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Roboto (built-in)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Roboto Condensed (built-in)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Root category for the Categories widget."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Save changes"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Save password"
+msgstr ""
+
+#: metra-classifieds.php
+msgid "Save permalinks once"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Search"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Search Categories"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Search Conditions"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Search Listings"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Search listingsâ¦"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Security check failed. Please try again."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Security question"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Select a category"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Select category"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Select condition"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Select images to delete, drag to sort, choose a primary image, then save."
+msgstr ""
+
+#: includes/class-mc-roles.php
+msgid "Seller"
+msgstr ""
+
+#: modules/contact/contact.php
+msgid "Send failed."
+msgstr ""
+
+#: modules/contact/contact.php
+msgid "Send message"
+msgstr ""
+
+#: includes/class-mc-design.php
+#: includes/class-mc-favorites.php
+#: includes/class-mc-profile.php
+#: includes/class-mc-shortcodes.php
+#: public/templates/single-mc_listing.php
+msgid "Set as Favorite"
+msgstr ""
+
+#: includes/class-mc-pages.php
+msgid "Set password"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Set password after activation"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Set your password now"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Settings"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Settings for outgoing e-mails (header/logo). The logo must be a publicly reachable JPG/PNG URL (HTTPS recommended)."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Show categories"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Show listing counters next to categories (widget default)."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Shows the current userâs listings."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Shows the latest listings."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Sie sind angemeldet."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Sie sind bereits angemeldet."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Sign in"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Single listing view (fallback page)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Skip existing"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Skipped existing: %s"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Some images were not uploaded because the maximum number of images per listing was reached."
+msgstr ""
+
+#: includes/class-mc-emails.php
+#: includes/class-mc-shortcodes.php
+msgid "Status"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Status:"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Submit"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Submit flow"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Submit page URL"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Text color"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "The attached images are placeholders generated locally for testing."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "The content is fictional and intended for testing purposes only."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "The link is invalid or expired. Please request a new link."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "The user was created, but the activation email could not be sent. Please check your mail configuration (SMTP) or contact the administrator."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "The user was created, but the activation email could not be sent. Please check your mail configuration (SMTP)."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "These pages are created automatically on plugin activation (and re-created if deleted)."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "This category has no subcategories."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "This email address is already registered."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "This email address is already registered. Please sign in or use a different address."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "This is a realistic dummy listing for testing search, filtering and layout."
+msgstr ""
+
+#: public/templates/single-mc_listing.php
+msgid "This listing will be permanently deleted and cannot be restored."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "This tab lists all currently registered METRA shortcodes (prefix mc_). The list updates automatically from the runtime registry."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "This username is already taken."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "This username is already taken. Please choose another username."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Thumbnail height in the listings overview."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Thumbnail width in the listings overview."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Titel"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/class-mc-categories-widget.php
+msgid "Title:"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Two columns (desktop)"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Universal mobile offcanvas navigation (hamburger)"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Unknown email address or username."
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Update Category"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "Update Condition"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Update failed for \"%s\": %s"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Updated: %s"
+msgstr ""
+
+#: includes/class-mc-design.php
+msgid "Updatingâ¦"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Upload a CSV file with columns: name, slug, parent_name, parent_slug, level. Existing terms are detected by slug + parent."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Upload error. Please try again."
+msgstr ""
+
+#: public/templates/single-mc_listing.php
+msgid "Used"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Used as fallback for the [mc_submit_link] shortcode."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Used for buttons/accents (token: --mc-primary)."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Used for headlines/titles (token: --mc-heading)."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "User activated: %s"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "User dashboard"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "User exists: %s (re-used)"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "User ID"
+msgstr ""
+
+#: includes/class-mc-profile.php
+msgid "User not found."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "User profile (read-only)"
+msgstr ""
+
+#: includes/class-mc-emails.php
+#: includes/class-mc-profile.php
+#: includes/class-mc-shortcodes.php
+msgid "Username"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Username or email"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Username und/oder Email address existieren bereits. Please verwenden Sie andere Daten oder melden Sie sich an."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Username/email or password is incorrect."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Usernames will be: User No 0001 -Dummy â¦"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Users count must be greater than 0."
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Users to create"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "View"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+#: includes/widgets/class-mc-categories-widget.php
+msgid "View all"
+msgstr ""
+
+#: includes/class-mc-cpt.php
+msgid "View Listing"
+msgstr ""
+
+#: includes/class-mc-pages.php
+#: includes/class-mc-profile.php
+#: includes/class-mc-shortcodes.php
+msgid "View listing"
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "View listing:"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "When disabled, the themeâs own mobile navigation remains untouched."
+msgstr ""
+
+#: includes/class-mc-user-activation.php
+msgid "Yes"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "You are currently not logged in."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "You are not allowed to delete this listing."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "You are not allowed to edit this listing."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "You can select multiple images. The first image will be used as the featured image."
+msgstr ""
+
+#: includes/class-mc-design.php
+msgid "You can select up to %d images."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "You have no listings yet."
+msgstr ""
+
+#: includes/class-mc-profile.php
+msgid "You have not marked any listings as favorites yet."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Your account has been activated successfully."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Your listing has been created: %s"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Your listing is being updated."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Your listing was created successfully."
+msgstr ""
+
+#: modules/contact/contact.php
+msgid "Your message has been sent to the seller."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Your password has been saved. You can now sign in."
+msgstr ""
+
+#: includes/class-mc-emails.php
+msgid "Zeit"
+msgstr ""
+
+#: includes/class-mc-profile.php
+#: includes/class-mc-shortcodes.php
+msgid "ZIP"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "â Select â"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Single listing: view counter"
+msgstr ""
+
+#: includes/class-mc-settings.php
+msgid "Show the view counter in the single listing view."
+msgstr ""
+
+#: includes/class-mc-views.php
+msgid "Views:"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Confirm password"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please use the link from your email."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please check your entries."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Negotiable"
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Please enter a price."
+msgstr ""
+
+#: includes/class-mc-shortcodes.php
+msgid "Numbers only. Do not use currency symbols or special characters."
+msgstr ""
+
+msgid "[big]Set your password[/big]\n\nYour account has been successfully activated. Please set your password to complete your registration.\n\nClick the link below to create your password. After that, you can sign in and start using all features.\n\nGood luck and enjoy using the classifieds!"
+msgstr ""
+
+msgid "Mandatory intro text shown below the mail logo (if present) and above the existing set-password mail content. Plain text only. Use [bold]...[/bold] for bold text and [big]...[/big] for a large bold headline. Real blank lines are preserved. Leave the field empty to use the translated default text from the language files."
+msgstr ""
+
+msgid "User set password e-mail"
+msgstr ""
+
+
+msgid "Show this intro text in the author copy of the new listing e-mail."
+msgstr ""
+
+msgid "Shown below the mail logo (if present) and above the existing author copy of the new listing e-mail. Plain text only. Use [bold]...[/bold] for bold text and [big]...[/big] for a large bold headline. Real blank lines are preserved. Leave the field empty to use the translated default text from the language files."
+msgstr ""
+
+msgid "Your listing is now publicly visible in the classifieds. We are keeping our fingers crossed for a successful outcome.\n\nHere are all the details of your listing:"
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Contact Seller"
+msgstr ""
+
+msgid "Pause"
+msgstr ""

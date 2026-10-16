@@ -1,0 +1,211 @@
+/* METRA Universal Mobile Navigation (theme-agnostic) */
+/* v0.0587: Button and theme-suppression only active at mobile breakpoint.
+   Panel/overlay always present in DOM for smooth animation. */
+
+/* Desktop: hide our button — theme nav handles navigation */
+@media (min-width: 981px) {
+  .mc-mobile-nav-universal {
+    display: none !important;
+  }
+}
+
+/* Mobile: show our button, hide theme nav */
+@media (max-width: 980px) {
+  .mc-mobile-nav-universal {
+    position: fixed;
+    top: var(--mc-mobile-nav-top, 16px);
+    right: var(--mc-mobile-nav-right, 16px);
+    z-index: 999999;
+    display: block;
+  }
+}
+
+.mc-mobile-nav-btn {
+  width: var(--mc-mobile-nav-btn-size, 44px);
+  height: var(--mc-mobile-nav-btn-size, 44px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--mc-mobile-nav-btn-padding, 10px);
+  background: var(--mc-mobile-nav-btn-bg, #ffffff);
+  color: var(--mc-mobile-nav-icon-color, #000000);
+  border-radius: var(--mc-mobile-nav-btn-radius, 12px);
+  border: 1px solid var(--mc-mobile-nav-btn-border, rgba(0,0,0,.12));
+  box-shadow: var(--mc-mobile-nav-btn-shadow, 0 6px 18px rgba(0,0,0,.12));
+  cursor: pointer;
+  position: relative;
+}
+
+.mc-mobile-nav-btn span {
+  /* Theme-agnostic: some themes reset/hide inline spans inside buttons.
+     We render the icon via ::before (3 bars) for maximum compatibility. */
+  display: none;
+}
+
+.mc-mobile-nav-btn::before {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 2px;
+  background: var(--mc-mobile-nav-icon-color, #000000);
+  border-radius: 2px;
+  box-shadow:
+    0 -6px 0 var(--mc-mobile-nav-icon-color, #000000),
+    0  6px 0 var(--mc-mobile-nav-icon-color, #000000);
+}
+
+.mc-mobile-nav-overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--mc-mobile-nav-overlay, rgba(0,0,0,.35));
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .18s ease, visibility .18s ease;
+  z-index: 999990;
+}
+
+.mc-mobile-nav-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: var(--mc-mobile-nav-panel-width, min(86vw, 380px));
+  background: var(--mc-mobile-nav-panel-bg, #ffffff);
+  transform: translateX(102%);
+  transition: transform .22s ease;
+  z-index: 999995;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: var(--mc-mobile-nav-panel-shadow, -14px 0 30px rgba(0,0,0,.18));
+}
+
+.mc-mobile-nav-panel-inner {
+  padding: 16px;
+}
+
+.mc-mobile-nav-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0 12px 0;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  margin-bottom: 12px;
+}
+
+.mc-mobile-nav-title {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.mc-mobile-nav-close {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.12);
+  background: #fff;
+  cursor: pointer;
+  line-height: 42px;
+  font-size: 20px;
+}
+
+.mc-mobile-nav-menu,
+.mc-mobile-nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mc-mobile-nav-panel .mc-mobile-nav-menu a,
+.mc-mobile-nav-panel .mc-mobile-nav-menu li a {
+  display: block;
+  padding: 14px 10px;
+  text-decoration: none;
+  border-radius: 12px;
+  text-align: center !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.mc-mobile-nav-open body {
+  overflow: hidden;
+}
+
+.mc-mobile-nav-open .mc-mobile-nav-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mc-mobile-nav-open .mc-mobile-nav-panel {
+  transform: translateX(0);
+}
+
+/* ============================================================
+   METRA Universal Nav — Theme hamburger suppression
+   Version: 0.0585
+   Purpose:
+   - When METRA's own offcanvas nav is active, hide the theme's
+     native mobile hamburger so only one toggle is visible.
+   - Uses known selectors for common themes (Divi, GeneratePress,
+     Astra, OceanWP, Storefront, Neve, Kadence) plus a generic
+     .mobile-menu-control-wrapper fallback.
+   - Does NOT use !important — theme CSS can override if needed.
+   - Rollback: remove this block.
+   ============================================================ */
+
+/* Theme suppression — only at mobile breakpoint */
+@media (max-width: 980px) {
+  /* Divi Theme + Divi Builder — all states suppressed with !important */
+  .et_mobile_nav_menu,
+  .et_mobile_nav_menu.is-open,
+  .mobile_menu_bar,
+  .et_toggle_slide_menu,
+  .et_pb_menu .et_mobile_menu,
+  .et_pb_fullwidth_menu .et_mobile_menu,
+  .et_pb_menu__menu-toggle,
+  #metra-mobile-menu,
+  #metra-mobile-menu.is-open,
+  nav#metra-mobile-menu,
+  nav#metra-mobile-menu.is-open,
+  .et_header_style_left .et_mobile_nav_menu,
+  .et_header_style_centered .et_mobile_nav_menu,
+  .et_header_style_split .et_mobile_nav_menu {
+    display: none !important;
+  }
+
+  /* GeneratePress, Astra, Neve, Kadence, Storefront, OceanWP — mobile toggles */
+  .main-nav-bar-toggle,
+  .ast-mobile-header-wrap,
+  .neve-mobile-nav,
+  .kadence-mobile-menu,
+  .ocean-mobile-menu,
+  .storefront-handheld-footer-bar nav {
+    display: none;
+  }
+
+  /* ============================================================
+     Desktop nav menus — hidden at mobile breakpoint so only
+     our METRA panel is shown. No !important — theme can override.
+     ============================================================ */
+
+  /* Divi: main desktop nav */
+  .et_pb_menu__menu,
+  .et_pb_fullwidth_menu__menu,
+  nav.et-menu-nav,
+  ul.et-menu,
+  .et_header_style_left #et-top-navigation,
+  .et_header_style_centered #et-top-navigation,
+  .et_header_style_split #et-top-navigation {
+    display: none !important;
+  }
+
+  /* Generic: common desktop nav wrappers across themes */
+  .main-navigation ul,
+  .site-navigation ul,
+  .primary-menu-container,
+  #primary-menu,
+  .nav-menu,
+  .main-nav ul,
+  .header-menu ul {
+    display: none !important;
+  }
+}
